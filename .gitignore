@@ -1,0 +1,24 @@
+# Môi trường ảo Python
+venv/
+env/
+.env
+
+# Cache của Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dữ liệu (Không push bộ dataset lên GitHub)
+archive/
+kaggle_3m/
+
+# Trọng số mô hình (Không push file .pth vì rất nặng)
+*.pth
+*.pt
+*.ckpt
+
+# Các file rác của hệ điều hành
+.DS_Store
+Thumbs.db
+*.zip
+datasets/
