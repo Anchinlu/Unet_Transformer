@@ -4,7 +4,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, random_split, Subset
 
 from configs.config import get_args
-from datasets.dataset import BrainTumorDataset
+from data.dataset import BrainTumorDataset
 from utils.utils import DiceBCELoss
 from trainer import trainer
 
