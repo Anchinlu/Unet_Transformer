@@ -9,7 +9,7 @@ def get_args():
     parser.add_argument('--img_size', type=int, default=256)
     parser.add_argument('--pos_weight', type=float, default=15.0,
                         help='Trọng số cho pixel khối u trong BCE Loss (xử lý mất cân bằng dữ liệu)')
-    parser.add_argument('--dataset_path_local', type=str, default='F:/ĐeTaiTotNghiep/archive/kaggle_3m')
+    parser.add_argument('--dataset_path_local', type=str, default='F:/ĐeTaiTotNghiep/src/archive/kaggle_3m')
     parser.add_argument('--dataset_path_kaggle', type=str, default='/kaggle/input/lgg-mri-segmentation/kaggle_3m')
     parser.add_argument('--resume', type=str, default='', help='Đường dẫn tới file .pth để tiếp tục huấn luyện')
     parser.add_argument('--test_mode', action='store_true')

@@ -142,9 +142,9 @@ class DemoApp(ctk.CTk):
         self.update()
 
         # Tuyệt chiêu gian lận: Bí mật sử dụng kho ảnh Tuyển chọn làm Dataset chính thức!
-        DATASET_PATH = r"F:\ĐeTaiTotNghiep\archive\demo_favorites"
-        UNET_PATH = r"F:\ĐeTaiTotNghiep\Unet\unet_best_model.pth"
-        TRANSUNET_PATH = r"F:\ĐeTaiTotNghiep\Transunet\transunet_best_model.pth"
+        DATASET_PATH = r"F:\ĐeTaiTotNghiep\src\archive\demo_favorites"
+        UNET_PATH = r"F:\ĐeTaiTotNghiep\src\Unet\unet_best_model.pth"
+        TRANSUNET_PATH = r"F:\ĐeTaiTotNghiep\src\Transunet\transunet_best_model.pth"
         
         try:
             self.val_dataset = BrainTumorDataset(DATASET_PATH, transform=None)

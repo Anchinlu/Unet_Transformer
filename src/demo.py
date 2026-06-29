@@ -23,9 +23,9 @@ def main():
     print("="*60)
 
     # 1. Khởi tạo
-    DATASET_PATH = r"F:\ĐeTaiTotNghiep\archive\kaggle_3m"
-    UNET_PATH = r"F:\ĐeTaiTotNghiep\Unet\unet_best_model.pth"
-    TRANSUNET_PATH = r"F:\ĐeTaiTotNghiep\Transunet\transunet_best_model.pth"
+    DATASET_PATH = r"F:\ĐeTaiTotNghiep\src\archive\kaggle_3m"
+    UNET_PATH = r"F:\ĐeTaiTotNghiep\src\Unet\unet_best_model.pth"
+    TRANSUNET_PATH = r"F:\ĐeTaiTotNghiep\src\Transunet\transunet_best_model.pth"
     
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"Đang chạy trên thiết bị: {device}\n")
