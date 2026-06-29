@@ -1,6 +1,6 @@
 **Ngôn ngữ:** Tiếng Việt | [English](README.en.md) *(Đang cập nhật)*
 
-![Demo Image](src/archive/demo_favorites/003.png)
+![Demo Image](docs/comparison_result.png)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
@@ -35,6 +35,9 @@ Mô hình không sử dụng các bản nháp có sẵn mà tiến hành thiết
 ## 📖 Hướng Dẫn Nhanh (Quick Start)
 
 Vui lòng tham khảo chi tiết tại **[HƯỚNG DẪN SỬ DỤNG VÀ CHẠY DEMO](docs/HUONG_DAN_SU_DUNG.md)**.
+
+### Dữ Liệu (Dataset)
+Bộ dữ liệu MRI sử dụng trong dự án được lấy từ Kaggle: [LGG MRI Segmentation Dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
 
 ### Yêu Cầu Cài Đặt (Prerequisites)
 - Python 3.9+
